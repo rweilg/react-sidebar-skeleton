@@ -1,6 +1,5 @@
 .sidebar-container {
   height: 100%;
-  margin: 0 auto;
   display: grid;
 }
 
@@ -16,12 +15,19 @@
 
 .menu {
   align-self: center;
-  margin: 0 auto;
+  display: grid;
 }
 
 .menu-element {
-  margin: 0 auto;
-  color: rgb(9, 250, 170);
+  padding: 14px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.menu-element.active {
+  padding: 14px;
+  background-color: #121fff;
+  border-radius: 16px;
 }
 
 .bottom-element {

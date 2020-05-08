@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
-import Canvas from "./canvas";
+import App from "./app";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Canvas />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -5,7 +5,7 @@ function Window2() {
   return (
     <div className="canvas-container">
       <div className="title-bar">
-        <h1 className="bigtitle">Window 2</h1>
+        <h1 className="bigtitle">Dashboard</h1>
       </div>
       <div className="content-area">
         <h3>section 2</h3>

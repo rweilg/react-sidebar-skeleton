@@ -22,6 +22,9 @@
   padding: 14px;
   text-decoration: none;
   color: rgb(255, 255, 255);
+  background-color: #080b29;
+  border-radius: 16px;
+  transition: 0.35s;
 }
 
 .menu-element.active {

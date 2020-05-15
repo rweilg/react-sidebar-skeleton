@@ -1,6 +1,12 @@
 import React from "react";
 import "./sidebar.css";
+import "./index.css";
 import { HashRouter, NavLink } from "react-router-dom";
+import WalletIcon from "./icons/wallet";
+import NewspaperIcon from "./icons/newspaper";
+import MessagesIcon from "./icons/messages";
+import ArchiveIcon from "./icons/archive";
+import SettingsIcon from "./icons/settings";
 
 function Sidebar() {
   return (
@@ -11,24 +17,38 @@ function Sidebar() {
           <h2>
             {" "}
             <NavLink exact to="/" className="menu-element">
+              <NewspaperIcon />
               Home
             </NavLink>{" "}
           </h2>
+
           <h2>
             {" "}
             <NavLink to="/window2" className="menu-element">
-              Dashboard
+              <WalletIcon />
+              Wallet
             </NavLink>{" "}
           </h2>
+
           <h2>
             {" "}
             <NavLink to="/window3" className="menu-element">
-              Users
+              <MessagesIcon />
+              Messages
             </NavLink>{" "}
           </h2>
           <h2>
             {" "}
             <NavLink to="/window4" className="menu-element">
+              <ArchiveIcon />
+              Archive
+            </NavLink>{" "}
+          </h2>
+
+          <h2>
+            {" "}
+            <NavLink to="/window5" className="menu-element">
+              <SettingsIcon />
               Settings
             </NavLink>{" "}
           </h2>

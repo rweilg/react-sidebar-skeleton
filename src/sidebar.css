@@ -1,6 +1,9 @@
 .sidebar-container {
   height: 100%;
   display: grid;
+  background: #ffffff;
+  border-radius: 48px;
+  box-shadow: 0px 2px 10px 0px rgba(80, 96, 150, 0.1);
 }
 
 .logo {
@@ -16,21 +19,28 @@
 .menu {
   align-self: center;
   display: grid;
+  justify-items: left;
+  padding-left: 8%;
 }
 
 .menu-element {
   padding: 14px;
   text-decoration: none;
-  color: rgb(255, 255, 255);
-  background-color: #080b29;
-  border-radius: 16px;
-  transition: 0.35s;
+  color: rgb(0, 0, 0);
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.menu-element:hover {
+  color: #7078ff;
+  fill: #7078ff;
 }
 
 .menu-element.active {
-  padding: 14px;
-  background-color: #121fff;
-  border-radius: 16px;
+  color: #121fff;
+  fill: #121fff;
+  opacity: 1;
 }
 
 .bottom-element {

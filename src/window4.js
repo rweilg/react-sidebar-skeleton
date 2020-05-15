@@ -5,7 +5,7 @@ function Window4() {
   return (
     <div className="canvas-container">
       <div className="title-bar">
-        <h1 className="bigtitle">Settings</h1>
+        <h1 className="bigtitle">Archive</h1>
       </div>
       <div className="content-area">
         <h3>section 4</h3>

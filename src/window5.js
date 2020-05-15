@@ -1,17 +1,17 @@
 import React from "react";
 import "./canvas.css";
 
-function Window2() {
+function Window5() {
   return (
     <div className="canvas-container">
       <div className="title-bar">
-        <h1 className="bigtitle">Wallet</h1>
+        <h1 className="bigtitle">Settings</h1>
       </div>
       <div className="content-area">
-        <h3>section 2</h3>
+        <h3>section 5</h3>
       </div>
     </div>
   );
 }
 
-export default Window2;
+export default Window5;
